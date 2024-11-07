@@ -20,11 +20,11 @@ function App () {
       <h2><em>Exponents</em></h2>
 
       <div className="container">
-        <Exponent count={count} num="2"/>
-        <Exponent count={count} num="3"/>
-        <Exponent count={count} num="4"/>
-        <Exponent count={count} num="5"/>
-        <Exponent count={count} num="6"/>
+        <Exponent count={count} num={2}/>
+        <Exponent count={count} num={3}/>
+        <Exponent count={count} num={4}/>
+        <Exponent count={count} num={5}/>
+        <Exponent count={count} num={6}/>
       </div>
     </div>
   );
